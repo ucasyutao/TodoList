@@ -1,0 +1,127 @@
+.pc{
+	font-size: 150px !important;
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 0.16rem;
+	background-color: #efefef;
+}
+header{
+	width: 100vw;
+	height: 0.5rem;
+	background-color: rgba(47,47,47,0.98);
+}
+.head{
+	width: 3.75rem;
+	margin: 0 auto;
+}
+.head .logo{
+	margin-left: 0.1rem;
+	float: left;
+	width: 0.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	font-weight: 600;
+	color: aliceblue;
+}
+#input{
+	float: right;
+	width: 2rem;
+	height: 0.3rem;
+	margin-right: 0.1rem;
+	font-size: 0.16rem;
+	margin-top: 0.1rem;
+	line-height: 0.3rem;
+	border:none;
+	outline: none;
+	border-radius: 0.05rem;
+	padding-left: 0.1rem;
+	/* text-indent: 0.1rem; */
+	box-shadow:0 1px 6px rgba(0,0,0,0.45) inset;
+}
+.main{
+	width: 3.75rem;
+	height: 100vh;
+	background-color:#efefef;
+	margin: 0 auto;
+}
+.todo{
+	width: 3.5rem;
+	padding-top: 0.2rem;
+	margin: 0 auto;
+}
+.todo .title{
+	height: 0.35rem;
+	width: 100%;
+	line-height: 0.35rem;
+	margin-bottom: 0.1rem;
+}
+.todo .title .lable{
+	font-size: 0.2rem;
+	font-weight: 900;
+	float: left;
+}
+.todo .title .num{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 0.15rem;
+	background-color:#ccc;
+	font-size: 0.2rem;
+	font-weight: 500;
+	float: right;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.todo .list .toItem{
+	margin-bottom: 0.1rem;
+	display: flex;
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	background-color: azure;
+	border-radius: 0.05rem;
+	align-items: center;
+	overflow: hidden;
+}
+.todo .list .toItem:before{
+	width: 0.04rem;
+	height: 0.4rem;
+	background-color: #629A9C;
+	content: "";
+}
+.toItem input{
+	width: 0.2rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	margin: 0 0.1rem;
+	cursor: pointer;
+}
+.toItem .content{
+	flex: 1;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.toItem .del{
+	width: 0.4rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin: 0 0.1rem;
+	background-color: coral;
+	text-align: center;
+	border-radius: 0.05rem;
+	font-size: 0.14rem;
+	font-weight: 400;
+	cursor: pointer;
+}
+.done.todo .list{
+	opacity: 0.4;
+}
